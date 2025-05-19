@@ -1,0 +1,389 @@
+@import url('');  
+:root{
+    --primary-color: #00eaff;
+    --text-color: #8d8d8d;
+    --dark-color: #000000;
+    --text-light-color: #f4f4f4;
+    --bg-color: rgb(0, 0, 0);
+    --b-shadow: #252525;
+} 
+html{
+    scroll-behavior: smooth;
+    color-scheme: dark light;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style: none;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+h1, h2, h3, h4{
+    color: var(--text-light-color);
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.contain{
+    width: 900px;
+    margin: auto;
+}
+.top-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: top;
+}
+.box{
+    border-radius: 20px;
+    background: linear-gradient(300deg, rgb(31, 32, 34), rgb(47, 51, 47), rgba(31, 30, 30, 0.815), rgba(14, 13, 13, 0.877));
+    box-shadow: inset 3px 1px 35px var(--b-shadow);
+}
+.header{
+    position: sticky;
+    top: 0;
+    margin: 30px 0 60px 0;
+    z-index: 22;
+}
+.head{
+    padding: 5px 40px;
+}
+.header .head .nav-menu .link-item{
+    color: var(--text-light-color);
+    text-decoration: none;
+    padding-right: 20px;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+}
+.header .head .nav-menu .link-item:hover{
+    color: var(--primary-color);
+}
+.header .head .nav-menu .link-item.active{
+    color: var(--primary-color);
+}
+.header .head .search-icon{
+    color: var(--text-light-color);
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    transform: scale(1);
+}
+.header .head .search-icon:hover{
+    color: var(--primary-color);
+    transform: scale(1.5);
+}
+.wrapper, .qua-exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+}
+.profile{
+    width: 30%;
+}
+.profile-img{
+    width: 100%;
+}
+.marquee{
+    padding: 10px 20px 5px 20px;
+}
+.marquee .title{
+    font-size: 25px;
+}
+.marquee .title b{
+    color: var(--primary-color);
+}
+.cv-box{
+    padding: 15px 20px;
+}
+.cv-box div, .cv-box{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.profile-name{
+    width: 70%;
+}
+.name{
+    padding: 0 30px;
+}
+.name h1{
+    font-size: 70px;
+    letter-spacing: 1;
+    font-family: 'Bauhaus 93';
+    color: var(--text-light-color);
+    line-height: 0.75;
+}
+.name-sign-objectives{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: top;
+    margin-top: 15px;
+}
+.name-sign{
+    gap: 15px;
+}
+.objectives{
+    padding: 20px;
+}
+.objectives p{
+    font-size: 20px;
+    color: var(--text-color);
+}
+.name-sign-objectives{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: safe;
+    gap: 20px;
+}
+.name-sign{
+    display: grid;
+    gap: 20px;
+    place-content: center;
+}
+.call-to-action{
+    display: grid;
+    place-content: center;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    color: var(--primary-color);
+}
+.iconz{
+    color:var(--primary-color);
+    font-size: 20px;
+}
+b{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text-light-color);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section 3 Qualification and Experience */
+.qua-exp{
+    margin: 15px 0;
+}
+.year{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.qualification, .experience{
+    width: 50%;
+    padding: 15px 20px;
+}
+.qua-titles{
+    display: grid;
+    gap: 2px;
+}
+.qua-titles span{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.item{
+    margin-left: -40px !important;
+    margin: 20px 0;
+}
+
+
+/* FreeLancer section */
+.platforms{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+}
+.github, .linkedin, .facebook, .twitter{
+    width: 25%;
+    display: grid;
+    gap: 20px;
+    place-content: center;
+    padding: 40px 0;
+}
+.github .icon, .linkedin .icon, .facebook .icon, .twitter .icon{
+    font-size: 55px;
+    color: var(--text-light-color);
+}
+.skills{
+    margin-top: 15px;
+}
+.skill-contact{
+    gap: 20px;
+}
+.skill, .contact{
+    width: 50%;
+    padding: 20px;
+}
+.progress .container{
+    margin: 20px 0;
+}
+.progress p{ 
+    font-size: 5px; 
+}
+.container{ 
+    background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px; 
+}
+.skill{
+    background-color: rgb(5, 89, 92); 
+    color: white; 
+    padding: 5px 20px; 
+    text-align: left; 
+    font-size: 15px; 
+    border-radius: 15px; 
+} 
+.html{ 
+    width: 80%; 
+}
+.js{ 
+    width: 65%; 
+} 
+.bootstrap{ 
+    width: 80%; 
+}
+.wordpress{ 
+    width: 85%; 
+} 
+.contact{
+    line-height: .3px;
+}
+.con-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    place-content: bottom;
+}
+.contact h3, .contact h2{
+    color: var(--text-light-color);
+    font-size: 30px;
+}
+.contact h1{
+    font-size: 80px;
+    color: var(--primary-color);
+}
+.contacts{
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.contacts .contact-header{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.contacts .contact-header h2{
+    font-size: 52px;
+}
+.contacts .contact-header p{
+    font-size: 15px;
+}
+form .form-group{
+    width: 100%;
+    margin: 0 0 30px 0;
+    position: relative;
+}
+form .form-group label{
+    margin: 5px 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 7px;
+    color: #00eaff;
+    background-color: #252525;
+}
+form .form-group input[type="text"],
+form .form-group textarea,
+form .form-group input[type="email"]{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    color: var(--primary-color);
+}
+form .form-group input[type="submit"]{
+    width: 25%;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+form .form-group input[type="submit"]:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.pro{
+    width: 100%;
+}
+
+.footer{
+    display: grid;
+    padding: 50px 0;
+    place-content: center;
+}
+.footer span, .footer span a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+/* Media Query */
+@media(max-width: 900px){
+    .contain{
+        width: 90%;
+    }
+    .box{
+        border-radius: 0px;
+    }
+    .query{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .query-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .profile,
+    .profile-name,
+    .name,
+    .cv-box,
+    .experience,
+    .qualification,
+    .github, 
+    .linkedin,
+    .facebook,
+    .twitter,
+    .skill,
+    .contact,
+    .contacts .contact-header{
+        width: 100%;
+    }
+    .html{ 
+        width: 80%; 
+    }
+    .js{ 
+        width: 65%; 
+    } 
+    .bootstrap{ 
+        width: 80%; 
+    }
+    .wordpress{ 
+        width: 85%; 
+    } 
+}

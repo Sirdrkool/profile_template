@@ -1,0 +1,110 @@
+<style>
+
+/* .box{
+    padding: 20px;
+    border-radius: 10px;
+    max-height: auto;
+    box-shadow: 4px 4px 20px #eeeeee;
+    font-size: 15px;
+}
+.box1{
+    max-width: 900px;
+    margin-inline: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+.box2{
+    background-color: #ffffff;
+    max-width: 100%;
+    border: 1px solid red;
+}
+.box3{
+    max-width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+.box4{
+    background-color: #fff;
+    max-width: 100%;
+}
+.box5{
+    background-color: #fff;
+    max-width: 100%;
+}
+.box6{
+    background-color: #fff;
+    max-width: 100%;
+}
+.box7{
+    background-color: #fff;
+    max-width: 100%;
+}
+@media (min-width: 539px){
+    .box1{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .box3{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 760px){
+    .box1{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 50% 1fr;
+    }
+    .box3{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 960px){
+    .box1{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 50% 1fr;
+    }
+    .box3{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 50% 1fr;
+    }
+} */
+</style>
+
+<html>
+<!--div class="box1">
+        <div class="box box2">
+            <h1>Box 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis aliquam, explicabo nam porro similique fugiat facilis! Esse autem ipsam neque ratione repellendus perspiciatis a harum. Modi sequi nesciunt odio placeat! Perferendis corrupti molestiae, mollitia, praesentium corporis consectetur eveniet officiis vel similique tempore illum tenetur quasi cumque architecto qui? Saepe.
+            </p>
+        </div>
+        <div class="box3">
+            <div class="box box4">
+                <h3>Box 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est debitis maxime quis dolorum odit dolorem autem reiciendis ex voluptates?</p>
+            </div>
+            <div class="box box5">
+                <h3>Box 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est debitis maxime quis dolorum odit dolorem autem reiciendis ex voluptates?</p>
+            </div>
+            <div class="box box6">
+                <h3>Box 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est debitis maxime quis dolorum odit dolorem autem reiciendis ex voluptates?</p>
+            </div>
+            <div class="box box7">
+                <h3>Box 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est debitis maxime quis dolorum odit dolorem autem reiciendis ex voluptates?</p>
+            </div>
+        </div>
+    </div-->
+
+
+</html>
